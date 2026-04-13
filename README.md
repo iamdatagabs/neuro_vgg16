@@ -1,6 +1,9 @@
 # neuro_vgg16
 Experimento de simulação de implementação do padrão arquitetural VGG16 com algoritmo ADAM em dataset de tomografia computadorizada (base do Kaggle)
 
+# neuro_vgg16
+Experimento de simulação de implementação do padrão arquitetural VGG16 com algoritmo ADAM em dataset de tomografia computadorizada (base do Kaggle)
+
 # 🧠 Classificação de Imagens Médicas com VGG16
 
 Este projeto implementa um pipeline de Deep Learning para classificação de imagens médicas utilizando a arquitetura VGG16, com dados obtidos via Kaggle e execução no Google Colab.
@@ -124,7 +127,9 @@ Gabriel Passos
 
 - Professor de Engenharia e Tecnologia
 - Doutorando em Ciência da Computação (PPGIa/PUCPR)  
-- Mestre em Computação Aplicada (PPGCA/UEPG)  
+- Mestre em Computação Aplicada (PPGCA/UEPG)
+- Bacharel em Geograifia (UFV)
+- Atuou em Ligas Acadêmicas vinculadas aos departamentos de Medicina e Enfermagem (DEM/UFV) e Nutrição e Saúde (DNS/UFV)
 - Pesquisador em Machine Learning, Ciência e Engenharia de Dados, Bioinformática e Informática Médica  
 
 
