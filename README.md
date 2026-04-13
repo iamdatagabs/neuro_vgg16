@@ -141,13 +141,18 @@ O projeto contempla:
 **Pontifícia Universidade Católica do Paraná (PUCPR)**  
 Programa de Pós-Graduação em Informática (PPGIA)  
 
+## 👨‍🏫 Orientação  
+
+**Orientador:** Prof. Dr. André Gustavo Hochuli  
+**Coorientador:** Prof. Dr. Alceu de Souza Britto Jr.
+
 ---
 
 ## 👨‍💻 Autor  
 
 **Gabriel Passos**  
 
-Doutorando em Ciência da Computação pelo PPGIA/PUCPR. Mestre em Computação Aplicada pela UEPG. Pesquisa na interface Inteligência Artificial e Medicina. Tem atuação como Cientista de Dados. É professor universitário na área de Tecnologia da Informação, ministrando disciplinas nas áreas de Estruturas de Dados, Banco de Dados e Ciência de Dados. Orienta pesquisas de Iniciação Científica e TCC na área de Informática Médica.
+Doutorando em Ciência da Computação pelo PPGIA/PUCPR. Mestre em Computação Aplicada pela UEPG. Bacharel em Geografia pela UFV. Pesquisa na interface Inteligência Artificial e Medicina. Tem atuação como Cientista de Dados. É professor universitário na área de Tecnologia da Informação, ministrando disciplinas nas áreas de Estruturas de Dados, Banco de Dados e Ciência de Dados. Orienta pesquisas de Iniciação Científica e TCC na área de Informática Médica.
 
 ---
 
