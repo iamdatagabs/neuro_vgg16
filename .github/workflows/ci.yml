@@ -34,9 +34,13 @@ jobs:
         print("OK")
         EOF
 
-    - name: Executar notebook
-      run: |
-        jupyter nbconvert --to notebook --execute \
-        --ExecutePreprocessor.timeout=300 \
-        --ExecutePreprocessor.kernel_name=python3 \
-        neuro_vgg16.ipynb
+# - name: Executar notebook
+#   run: |
+#     jupyter nbconvert --to notebook --execute \
+#     --ExecutePreprocessor.timeout=300 \
+#     --ExecutePreprocessor.kernel_name=python3 \
+#     neuro_vgg16.ipynb
+
+
+
+      
