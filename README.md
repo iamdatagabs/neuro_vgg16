@@ -11,7 +11,7 @@
 
 <p align="center">
 
-![Build Status](https://github.com/iamdatagabs/neuro_vgg16/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/iamdatagabs/neuro_vgg16/actions/workflows/ci.yml/badge.svg?branch=main)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Framework](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
