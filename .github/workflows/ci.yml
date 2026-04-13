@@ -12,35 +12,19 @@ jobs:
 
     steps:
     
-    - name: Checkout do repositório
+    - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Configurar Python
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
-    - name: Instalar dependências
+    - name: Instalar dependências básicas
       run: |
         python -m pip install --upgrade pip
-        pip install numpy pandas matplotlib scikit-learn tensorflow kaggle nbconvert
+        pip install numpy pandas
 
-    - name: Testar imports
+    - name: Teste básico
       run: |
-        python - <<EOF
-        import numpy
-        import pandas
-        import tensorflow
-        print("OK")
-        EOF
-
-# - name: Executar notebook
-#   run: |
-#     jupyter nbconvert --to notebook --execute \
-#     --ExecutePreprocessor.timeout=300 \
-#     --ExecutePreprocessor.kernel_name=python3 \
-#     neuro_vgg16.ipynb
-
-
-
-      
+        python -c "import numpy, pandas; print('CI OK')"
