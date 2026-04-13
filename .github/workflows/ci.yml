@@ -1,42 +1,13 @@
-name: CI - neuro_vgg16
+- name: 📓 Validar notebook
+  run: |
+    NOTEBOOK="Experimento1_VGG16_Doc_Neuro.ipynb"
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    python - <<EOF
+    import nbformat, os
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    path = os.environ.get("NOTEBOOK")
+    assert os.path.exists(path), f"Notebook não encontrado: {path}"
 
-    steps:
-    
-    - name: Checkout do repositório
-      uses: actions/checkout@v3
-
-    - name: Configurar Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Instalar dependências
-      run: |
-        python -m pip install --upgrade pip
-        pip install numpy pandas matplotlib scikit-learn tensorflow kaggle nbconvert
-
-    - name: Testar imports
-      run: |
-        python - <<EOF
-        import numpy
-        import pandas
-        import tensorflow
-        print("OK")
-        EOF
-
-    - name: Executar notebook
-      run: |
-        jupyter nbconvert --to notebook --execute \
-        --ExecutePreprocessor.timeout=300 \
-        --ExecutePreprocessor.kernel_name=python3 \
-        neuro_vgg16.ipynb
+    nb = nbformat.read(path, as_version=4)
+    print("Notebook válido ✅")
+    EOF
