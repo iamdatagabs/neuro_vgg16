@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo-pucpr-vermelha.png" height="80"/>
+  <img src="https://raw.githubusercontent.com/iamdatagabs/neuro_vgg16/main/assets/logo-pucpr-vermelha.png" height="80"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -11,7 +11,7 @@
 
 <p align="center">
 
-![Build Status](https://github.com/SEU_USUARIO/neuro_vgg16/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/iamdatagabs/neuro_vgg16/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Framework](https://img.shields.io/badge/TensorFlow-Keras-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
