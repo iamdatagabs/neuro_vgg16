@@ -1,0 +1,37 @@
+# =========================
+# Core scientific stack
+# =========================
+numpy>=1.23,<2.0
+pandas>=2.0
+scipy>=1.10
+
+# =========================
+# Deep Learning
+# =========================
+tensorflow>=2.12
+keras>=2.12
+
+# =========================
+# Computer Vision (VGG16 etc.)
+# =========================
+opencv-python>=4.7
+Pillow>=9.5
+
+# =========================
+# Notebook execution / CI
+# =========================
+jupyter
+ipykernel
+nbformat>=5.8
+nbconvert>=7.0
+
+# =========================
+# Utilities
+# =========================
+matplotlib>=3.7
+tqdm
+
+# =========================
+# Reproducibility (optional but recommended)
+# =========================
+scikit-learn>=1.2
